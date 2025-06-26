@@ -9,3 +9,7 @@ console.log(`Name: ${name}, Roll No: ${roll_no}, Boolean: ${bool}`);
 let tea_types=["Taj","Lemon","Black","Oolong"]
 console.log("Tea Types:", tea_types);
 console.log(typeof tea_types);
+let first_name = null;
+let last_name;
+console.log("First Name:", first_name);
+console.log("Last Name:", last_name);
