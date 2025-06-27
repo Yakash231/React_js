@@ -13,3 +13,26 @@ let first_name = null;
 let last_name;
 console.log("First Name:", first_name);
 console.log("Last Name:", last_name);
+let string="hello world "
+console.log("String:", string);
+let first_name1 = "Akash";
+let last_name1 = "Kumar";   
+console.log(`${first_name1} ${last_name1}`);
+let sym=Symbol();
+console.log(sym);
+const username={ firstname:"Akash",
+               lastname:"Kumar",
+               sec:"B-15",
+               roll_no:22052607};
+  username.firstname="Yejji";   
+  username.lastname="Akash";
+
+console.log(`First: : ${username.firstname} 
+            last: ${username.lastname}
+            sec: ${username.sec}
+            roll_no: ${username.roll_no}`);
+
+let today = new Date();
+console.log("Today's Date:", today);
+let current_time = new Date().toLocaleTimeString();
+console.log("Current Time:", current_time);
