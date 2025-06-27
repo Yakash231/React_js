@@ -16,3 +16,8 @@ if(typeof(score) === 'number')
 else{
     console.log("Score is not a number");
 }
+let arr = [1, 2, 3, 4, 5];
+if(typeof(arr) === 'object')
+{
+    console.log("Array is an object");
+}
